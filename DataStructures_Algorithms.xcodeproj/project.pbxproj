@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5A156FBC247860D800FB521B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A156FBB247860D800FB521B /* main.cpp */; };
+		5A156FC32478612100FB521B /* AlgorithmSortAll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A156FC22478612100FB521B /* AlgorithmSortAll.cpp */; };
+		5A156FC62478617600FB521B /* AlgorithmSortHeap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A156FC52478617600FB521B /* AlgorithmSortHeap.cpp */; };
+		5A156FC9247861F100FB521B /* AlgorithmSortK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A156FC8247861F100FB521B /* AlgorithmSortK.cpp */; };
+		5A156FCC2478622300FB521B /* BinaryHeap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A156FCB2478622300FB521B /* BinaryHeap.cpp */; };
+		5A156FCF2478625000FB521B /* SelectionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A156FCE2478625000FB521B /* SelectionAlgorithm.cpp */; };
+		5A156FD22478627F00FB521B /* TestBed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A156FD12478627F00FB521B /* TestBed.cpp */; };
+		5A156FD5247862A600FB521B /* AlgorithmSortQuick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A156FD4247862A600FB521B /* AlgorithmSortQuick.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		5A156FB8247860D800FB521B /* DataStructures_Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures_Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A156FBB247860D800FB521B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5A156FC22478612100FB521B /* AlgorithmSortAll.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AlgorithmSortAll.cpp; sourceTree = "<group>"; };
+		5A156FC42478614900FB521B /* AlgorithmSortAll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmSortAll.h; sourceTree = "<group>"; };
+		5A156FC52478617600FB521B /* AlgorithmSortHeap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AlgorithmSortHeap.cpp; sourceTree = "<group>"; };
+		5A156FC7247861A200FB521B /* AlgorithmSortHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmSortHeap.h; sourceTree = "<group>"; };
+		5A156FC8247861F100FB521B /* AlgorithmSortK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AlgorithmSortK.cpp; sourceTree = "<group>"; };
+		5A156FCA2478620800FB521B /* AlgorithmSortK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmSortK.h; sourceTree = "<group>"; };
+		5A156FCB2478622300FB521B /* BinaryHeap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryHeap.cpp; sourceTree = "<group>"; };
+		5A156FCD2478623500FB521B /* BinaryHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryHeap.h; sourceTree = "<group>"; };
+		5A156FCE2478625000FB521B /* SelectionAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionAlgorithm.cpp; sourceTree = "<group>"; };
+		5A156FD02478626700FB521B /* SelectionAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionAlgorithm.h; sourceTree = "<group>"; };
+		5A156FD12478627F00FB521B /* TestBed.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestBed.cpp; sourceTree = "<group>"; };
+		5A156FD32478628C00FB521B /* TestBed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBed.h; sourceTree = "<group>"; };
+		5A156FD4247862A600FB521B /* AlgorithmSortQuick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AlgorithmSortQuick.cpp; sourceTree = "<group>"; };
+		5A156FD6247862B800FB521B /* AlgorithmSortQuick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmSortQuick.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				5A156FBB247860D800FB521B /* main.cpp */,
+				5A156FC22478612100FB521B /* AlgorithmSortAll.cpp */,
+				5A156FC42478614900FB521B /* AlgorithmSortAll.h */,
+				5A156FC52478617600FB521B /* AlgorithmSortHeap.cpp */,
+				5A156FC7247861A200FB521B /* AlgorithmSortHeap.h */,
+				5A156FC8247861F100FB521B /* AlgorithmSortK.cpp */,
+				5A156FCA2478620800FB521B /* AlgorithmSortK.h */,
+				5A156FCB2478622300FB521B /* BinaryHeap.cpp */,
+				5A156FCD2478623500FB521B /* BinaryHeap.h */,
+				5A156FCE2478625000FB521B /* SelectionAlgorithm.cpp */,
+				5A156FD02478626700FB521B /* SelectionAlgorithm.h */,
+				5A156FD12478627F00FB521B /* TestBed.cpp */,
+				5A156FD32478628C00FB521B /* TestBed.h */,
+				5A156FD4247862A600FB521B /* AlgorithmSortQuick.cpp */,
+				5A156FD6247862B800FB521B /* AlgorithmSortQuick.h */,
 			);
 			path = DataStructures_Algorithms;
 			sourceTree = "<group>";
@@ -119,7 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A156FCF2478625000FB521B /* SelectionAlgorithm.cpp in Sources */,
 				5A156FBC247860D800FB521B /* main.cpp in Sources */,
+				5A156FCC2478622300FB521B /* BinaryHeap.cpp in Sources */,
+				5A156FD5247862A600FB521B /* AlgorithmSortQuick.cpp in Sources */,
+				5A156FC9247861F100FB521B /* AlgorithmSortK.cpp in Sources */,
+				5A156FC62478617600FB521B /* AlgorithmSortHeap.cpp in Sources */,
+				5A156FC32478612100FB521B /* AlgorithmSortAll.cpp in Sources */,
+				5A156FD22478627F00FB521B /* TestBed.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
